@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.main{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    padding-top: 300px;
+    background-color: greenyellow;
+    margin: auto;
+}
+.btb1{
+    background-color:black;
+    color: white;
+    margin-bottom: 50px;
+}
+.btb2{
+    font-family: tahoma;
+}
