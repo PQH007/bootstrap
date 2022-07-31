@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./popper.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -24,5 +25,97 @@
             </div>
         </div>
     </div>
+    <div class="container"  style="margin-top:50px;">
+        <div class="row" >
+            <div class="col-md-3">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown">Menu dropdown</button>
+                <div class="dropdown-menu">
+                    <a href="" class="dropdown-item">Item 1</a>
+                    <a href="" class="dropdown-item">Item 2</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="" class="dropdown-item">Item 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-top:50px ;">
+            <div class="col-md-5">
+                <form>
+                   <div class="form-group">
+                        <h2>Dang Ky</h2>
+                        <div class="row">
+                            <div class="col">
+                                <label>Ten</label>
+                                <input type="text" required class="form-control" placeholder="ten cua ban">
+                            </div>
+                            <div class="col">
+                                <label>ho</label>
+                                <input type="text" required class="form-control" placeholder="ho cua ban">
+                            </div>
+                        </div>
+                   </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" required class="form-control" placeholder="Email cua ban">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" required class="form-control" placeholder="Password cua ban">
+                    </div>
+
+                        <label>Noi o cua ban</label>
+                        <select class="form-select" aria-label="disabled select example">
+                            <option value="" selected>noi song cua ban</option>
+                            <option value="">Ha noi</option>
+                            <option value="">HCM</option>
+                            <option value="">Da Nang</option>
+                        </select>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="sex" id="" value="checkedValue">
+                                Nam
+                              </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="sex" id="" value="checkedValue">
+                                Nu
+                              </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-top:10px ;">
+                        <input type="checkbox">
+                        <label>dong y</label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                        dong y voi dieu khoan
+                      </label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">gui</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <label>gia tri
+            <input type="text" class="form-control" id="a">
+        </label>
+        <button type="button" class="btn btn-dark" id="btn1">submit</button>
+        <div class="khoi1">
+            <div class="khoi2" id="khoi2"></div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>
