@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.list-product-title{
+    width: 100%;
+    text-transform: uppercase;
+    margin-left:5px ;
+}
+.list-product-subtitle{
+    width: 100%;
+    margin-left: 5px;
+}
