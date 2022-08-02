@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     border: none;
+    /* border-radius: 0 !important; chuyen toan bo ve boder-radius = 0 */
 }
 .dropdown{
     position: relative;
@@ -25,4 +26,42 @@
 .list-product-subtitle{
     width: 100%;
     margin-left: 5px;
+    margin-right: 5px;
+}
+.product-price{
+    position: relative;
+}
+.del-price{
+    text-decoration: line-through;
+}
+.new-price{
+    color: red;
+    position: absolute;
+    right: 0.5rem;
+}
+.btn-add-to-cart{
+ color: white !important;
+}
+.btn-add-to-cart:hover{
+    background-color: #f90 !important;
+}
+.btn-detail:hover{
+    /* background-color: #3a5c83; */
+    color: white !important;
+
+}
+.sale-sticky{
+    color: white;
+    background-color: #f90;
+    display: block;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+    top: 11px;
+    right: -39px;
+    transform: rotate(45deg);
+}
+.card-product{
+    overflow: hidden;
+    position: relative;
 }
